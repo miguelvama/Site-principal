@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog - Batman</title>
+<style>
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+body {
+font-family: Arial, sans-serif;
+background-color: #f4f4f4;
+color: #eee8e8;
+line-height: 1.6;
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+background-image: url(https://www.pixelstalk.net/wp-content/uploads/image11/Batman-lighting-up-the-night-sky-with-dark-clouds-rolling-in-over-Gotham.jpg);
+background-size: cover;
+background-position: center center;
+background-attachment: fixed;
+}
+
+
+header {
+background-color: #333;
+color: #fff;
+padding: 10px 0;
+}
+
+
+nav ul {
+list-style: none;
+display: flex;
+justify-content: center;
+}
+
+
+nav ul li {
+margin: 0 20px;
+}
+
+
+nav ul li a {
+text-decoration: none;
+color: #fff;
+font-weight: bold;
+padding: 5px 10px;
+}
+
+
+nav ul li a:hover {
+background-color: #555;
+border-radius: 5px;
+}
+
+
+main {
+padding: 20px;
+flex: 1;
+}
+
+
+.content-wrapper {
+background-color: #333;
+border-radius: 15px;
+padding: 20px;
+margin-bottom: 20px;
+opacity: 0.8; 
+}
+
+
+.intro {
+background-image: url('caminho/para/sua-imagem-de-introducao.jpg'); 
+background-size: cover;
+background-position: center center;
+color: #fff;
+padding: 60px 20px;
+text-align: center;
+}
+
+
+.posts {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 20px;
+}
+
+
+.post img {
+width: 100%;
+height: auto;
+border-radius: 8px;
+}
+
+
+.post h2 {
+margin: 15px 0;
+}
+
+
+.link-post {
+color: #007bff;
+text-decoration: none;
+font-weight: bold;
+}
+
+
+.link-post:hover {
+text-decoration: underline;
+}
+
+
+footer {
+background-color: #333;
+color: #fff;
+text-align: center;
+padding: 10px;
+}
+
+
+.post {
+transition: transform 0.3s ease;
+}
+
+
+.post:hover {
+transform: scale(1.05);
+}
+</style>
+</head>
+<body>
+
+
+<header>
+<nav>
+<ul>
+<li><a>Início</a></li>
+<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSc1gBWRCwnGSPmLLdssEjf1w_MQs5-jV2NEBje8E6qH3vhFDQ/viewform?usp=sharing&ouid=106762131657155418059">Contato</a></li>
+</ul>
+</nav>
+</header>
+
+
+<main>
+<div class="content-wrapper">
+<section class="intro">
+<h1>Batman: O Cavaleiro das Trevas</h1>
+<p>"Você morre como héroi, ou vive o suficiente para se tornar um vilão".</p>
+</section>
+
+
+<section class="posts">
+<article class="post">
+<img src="https://rollingstone.com.br/media/_versions/cropped-batman-lista-1-1_widemd.jpg" alt="Batman - Imagem 1">
+<h2>Quem é o Batman?</h2>
+<p>O Batman, alter ego de Bruce Wayne, é um vigilante da cidade de Gotham. Ao contrário de outros heróis, ele não possui superpoderes, mas sim uma inteligência afiada, habilidades de combate excepcionais e uma vasta tecnologia ao seu dispor. Sua missão é combater o crime e trazer justiça a uma cidade marcada pelo caos.</p>
+<p>Com uma origem trágica, onde ele testemunhou o assassinato de seus pais ainda criança, Bruce jurou combater o mal de todas as formas, tornando-se o Batman. Ele é frequentemente visto como o herói sombrio, uma figura de mistério e força.</p>
+<a href="https://atw2108.github.io/historia-do-batman/" class="link-post">Leia mais sobre a história do Batman</a>
+</article>
+
+
+<article class="post">
+<img src="https://pm1.aminoapps.com/6507/c068627c55101912ee15954836459a954246f80a_hq.jpg" alt="Batman - Imagem 2">
+<h2>A Traje e Equipamento</h2>
+<p>O traje do Batman é um dos mais icônicos do mundo dos quadrinhos. Com capa, cinto de utilidades e uma máscara que cobre seu rosto, o traje é projetado para intimidar seus inimigos. Além disso, ele é equipado com gadgets como o Batarang, o Batmóvel, entre outros.</p>
+<p>Além da aparência imponente, o traje também tem tecnologia avançada que ajuda o Batman em suas batalhas contra criminosos e supervilões.</p>
+<a href="https://atw2108.github.io/gadjets-batman/" class="link-post">Leia mais sobre o traje e os gadgets do Batman</a>
+</article>
+
+
+<article class="post">
+<img src="https://i0.wp.com/nerdizmo.ig.com.br/wp-content/uploads/2023/03/viloes-do-batman-capa.png?fit=1140%2C600&ssl=1" alt="Batman - Imagem 3">
+<h2>Principais Vilões do Batman</h2>
+<p>Ao longo dos anos, o Batman enfrentou uma galeria de vilões que se tornaram tão icônicos quanto o próprio herói. Entre eles estão o Coringa, o Pinguim, a Mulher-Gato, o Duas-Caras e muitos outros.</p>
+<p>Cada um desses vilões possui suas próprias motivações e formas de desafiar o Batman, criando histórias profundas e emocionantes nos quadrinhos e filmes.</p>
+<a href="https://atw2108.github.io/viloes-batman/" class="link-post">Saiba mais sobre os vilões do Batman</a>
+</article>
+</section>
+</div>
+</main>
+
+
+<footer>
+<p>&copy; 2025 Blog do Batman. Todos os direitos reservados.</p>
+<p><a href="contato.html">Fale Conosco</a></p>
+</footer>
+
+
+<script>
+document.querySelectorAll('.post').forEach(post => {
+post.addEventListener('mouseenter', function() {
+post.style.transform = "scale(1.05)";
+post.style.transition = "transform 0.3s ease";
+});
+post.addEventListener('mouseleave', function() {
+post.style.transform = "scale(1)";
+});
+});
+</script>
+
+
+</body>
+</html>
